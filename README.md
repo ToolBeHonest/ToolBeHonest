@@ -14,7 +14,7 @@
   🏆 <a href="https://toolbehonest.github.io/">Leaderboard</a> |
   📃 <a href="https://arxiv.org/abs/xxxx">Paper</a> |
   📚 <a href="https://huggingface.co/datasets/Joelzhang/ToolBeHonest">Data</a> |
-  📜 <a href="https://github.com/ToolBeHonest/ToolBeHonest/bolb/master/LICENSE">License</a>
+  📜 <a href="https://github.com/ToolBeHonest/ToolBeHonest/bolb/main/LICENSE">License</a>
 </div>
 
 ## 📝 Introduction
