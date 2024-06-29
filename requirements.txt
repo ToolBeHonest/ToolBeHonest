@@ -1,0 +1,6 @@
+vllm
+openai
+google-generativeai
+scikit-learn
+numpy
+sentence-transformers
