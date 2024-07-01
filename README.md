@@ -168,7 +168,11 @@ The overall results for each model can be found in `toolbh/results/eval_results/
 If you find this repository useful, please consider giving star and citing our paper:
 
 ```plaintext
-@article{
-  waiting for arxiv
+@article{zhang2024toolbehonestmultilevelhallucinationdiagnostic,
+  title={ToolBeHonest: A Multi-level Hallucination Diagnostic Benchmark for Tool-Augmented Large Language Models},
+  author={Yuxiang Zhang and Jing Chen and Junjie Wang and Yaxin Liu and Cheng Yang and Chufan Shi and Xinyu Zhu and Zihao Lin and Hanwen Wan and Yujiu Yang and Tetsuya Sakai and Tian Feng and Hayato Yamana},
+  journal={arXiv preprint arXiv:2406.20015},
+  year={2024},
+  url={https://arxiv.org/abs/2406.20015},
 }
 ```
