@@ -25,15 +25,15 @@ ToolBeHonest includes **700 manually annotated evaluation samples** across seven
 
 ### Diagnostic Framework and Scope
 
-- **Multi-Level Diagnostic Process**:
+- **In-depth Multi-Level Diagnostic Process**:
   - **Solvability Detection**: Evaluates whether the problem can be solved with the given toolset.
   - **Solution Planning**: Requires LLMs to propose a sequential plan to address the task.
   - **Missing-Tool Analysis**: Identifies the necessary tools and their functionalities for unsolvable tasks.
 
-- **Scenarios**:
-  - **Missing Necessary Tools**: Evaluates how LLMs handle tasks without essential tools.
-  - **Potential Tools**: Tests LLMs' ability to recognize and utilize potentially available tools.
-  - **Limited Functionality Tools**: Assesses LLMs' performance with tools that have constrained functionalities.
+- **In-breadth Hallucination-inducing Scenarios**:
+  - **Missing Necessary Tools**: Tests the LLM's performance when key tools are unavailable, inducing the LLM to attempt using non-existent tools. It evaluates the LLM's strategy and reliability when essential tools are absent.
+  - **Induced Use of Potential Tools**: Examines the LLM's ability to incorrectly utilize potential tools that should be avoided. For example, even though operating system environments may be available, they should not be used by the LLM, as their usage could lead to serious consequences.
+  - **Misuse of Limited Functionality Tools**: In this scenario, LLMs are induced to directly use tools with limited capabilities for task execution, testing the LLM's handling capacity and recognition of real-world limitations when tools are insufficient.
 
 <div align="center">
 <img src="./assets/main_graph.png" style="width: 100%;height: 100%">
