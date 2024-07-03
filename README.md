@@ -10,9 +10,8 @@
 </div>
 
 <div align="center">
-  <!-- <a href="#model">Model</a> • -->
-  🏆 <a href="https://toolbehonest.github.io/">Leaderboard</a> |
-  📃 <a href="https://arxiv.org/abs/xxxx">Paper</a> |
+  🏆 <a href="#-leaderboard">Leaderboard</a> |
+  📃 <a href="https://arxiv.org/pdf/2406.20015">Paper</a> |
   📚 <a href="https://huggingface.co/datasets/Joelzhang/ToolBeHonest">Data</a> |
   📜 <a href="https://github.com/ToolBeHonest/ToolBeHonest/blob/main/LICENSE">License</a>
 </div>
@@ -111,6 +110,8 @@ bash scripts/infer_openi.sh
 
 ### 2. Evaluation
 
+Once you complete the inference stage, you can begin to evaluate the results.
+
 Example script for evaluating the result of `gpt-4o-2024-05-13`:
 
 ```shell
@@ -162,6 +163,12 @@ bash scripts/eval_results_reproduction.sh
 The evaluation results will be saved in `toolbh/results/eval_results` and `toolbh/results/table_results`.
 
 The overall results for each model can be found in `toolbh/results/eval_results/Evaluation_results_0609_(model)_(embedding_model)_hard.json`, `group_results` key contains the overall scores.
+
+## 🏆 Leaderboard
+
+<div align="center">
+<img src="./assets/leaderboard.png" style="width: 100%;height: 100%">
+</div>
 
 ## 📖 Citation
 
