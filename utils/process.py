@@ -25,7 +25,7 @@ def _process_task_infer(prompt_type, task_item, generation_func, args):
         response = generation_func(prompt)
 
         unsolvable_prompt = f"{args.detecting_prompt}\n\n<task>\n{unsolvable_task_query}\n</task>\n\n<provided_tools>\n{unsolvable_tool_list_str}\n</provided_tools>"
-        unsolvable_response = generation_func(unsolvable_prompt, args.api_url)
+        unsolvable_response = generation_func(unsolvable_prompt)
 
         return {"solvable": response, "unsolvable": unsolvable_response}
 
@@ -34,7 +34,7 @@ def _process_task_infer(prompt_type, task_item, generation_func, args):
         response = generation_func(prompt)
         
         unsolvable_prompt = f"{args.planning_prompt}\n\n<task>\n{unsolvable_task_query}\n</task>\n<provided_tools>\n{unsolvable_tool_list_str}\n</provided_tools>"
-        unsolvable_response = generation_func(unsolvable_prompt, args.api_url)
+        unsolvable_response = generation_func(unsolvable_prompt)
 
         return {"solvable": response, "unsolvable": unsolvable_response}
 
@@ -43,7 +43,7 @@ def _process_task_infer(prompt_type, task_item, generation_func, args):
         response = generation_func(prompt)
 
         unsolvable_prompt = f"{args.diagnosing_prompt}\n\n<task>\n{unsolvable_task_query}\n</task>\n<provided_tools>\n{unsolvable_tool_list_str}\n</provided_tools>"
-        unsolvable_response = generation_func(unsolvable_prompt, args.api_url)
+        unsolvable_response = generation_func(unsolvable_prompt)
 
         return {"solvable": response, "unsolvable": unsolvable_response}
 
