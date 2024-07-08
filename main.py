@@ -138,6 +138,8 @@ def main():
             print(f"Recovering results from {args.recover_path}")
             recover_results = load_results(args.recover_path)
             results = process_all_tasks_recover(items, args, generation_func, recover_results)
+        elif args.mode == "eval":
+            results = load_results(args.results_path)
         else:
             results = process_all_tasks_infer(items, args, generation_func)
         end_time = time.time()
