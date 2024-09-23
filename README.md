@@ -41,6 +41,7 @@ ToolBeHonest includes **700 manually annotated evaluation samples** across seven
 ## 🎉 What's New
 
 - **[2024.06.30]** 📣 ToolBeHonest Benchmark is released.
+- **[2024.09.20]** 📣 ToolBeHonest has been accepted for presentation at the main conference of EMNLP 2024!
 
 ## 📄 Table of Contents
 
